@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+}
+
+form{
+    border:1px solid black;
+    max-width: 420px;
+    padding:20px;
+    margin: 30px auto;
+    box-shadow: 2px 5px 8px rgba(75, 74, 74, 0.829) ;
+}
+h2{
+    text-align: center;
+    color: maroon;
+}
+.inline{
+    display: flex;
+    gap: 10px;
+    width:100%;
+    margin-bottom: 10px;
+}
+.inline div{
+    width:100%;
+}
+input{
+    width:98%;
+    height:25px;
+}
+select{
+    width:99%;
+    box-sizing: border-box;
+    padding:2px 12px; 
+}
+textarea{
+    width:100%;
+}
+button{
+    width:100%;
+    background-color:maroon;
+}
+.my-custom-btn{
+    background-color: maroon;
+    color:white
+}
+.my-custom-btn:hover,
+.my-custom-btn:active,
+.my-custom-btn:focus{
+    background-color: maroon;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.my-custom-btn:focus{
+    background-color: rgb(100, 4, 4);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
