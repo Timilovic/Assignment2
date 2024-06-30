@@ -63,6 +63,11 @@ button{
         margin:0;
         background-color: rgba(206, 106, 106, 0.925);
     }
+    input, textarea, select{
+        color:black;
+        border-radius: 4px;
+        border-style: none;
+    }
 }
 @media screen and (max-width:405px) {
     .inline{
