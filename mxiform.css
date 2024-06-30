@@ -2,10 +2,16 @@
     font-family: sans-serif;
 }
 
+body{
+    background-color: maroon;
+}
+
 form{
     max-width: 420px;
+    background-color: white;
     padding:20px;
     margin: 30px auto;
+    border-radius: 4px;
     box-shadow: 2px 5px 8px rgba(75, 74, 74, 0.829) ;
 }
 h2{
