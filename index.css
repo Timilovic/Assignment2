@@ -25,11 +25,27 @@ li:hover{
     color:white;
 }
 
-nav button{
-  padding:8px 7px;
-  border:1px solid rgba(223, 177, 177, 0.925);
-  color: rgba(223, 177, 177, 0.925);
-  border-radius:5px;
+.drop p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.wraper{
+    position: relative;
+}
+
+.drop{
+    position: absolute;
+    top:42px;
+    left:-24px;
+    color:rgb(31, 73, 116);
+    background-color: white;
+    padding:0px;
+    display: none;
+}
+
+.my-custom-btn{
+  color: rgba(214, 145, 145, 0.925);
 }
 
 main{
@@ -71,7 +87,7 @@ form p{
     /* height:50px; */
     background-color: black;
     padding: 30px 0px;
-    margin-bottom:-12px;
+    margin-bottom:-18px;
     margin-top: 6px;
 }
 
@@ -106,9 +122,18 @@ form p{
     li{
         background-color: white;
     }
-    nav button{
+    .wraper{
+        width: 100%;
+    }
+    .my-custom-btn{
         width:100%;
         margin-bottom: 10px;
+    }
+    .drop{
+        left:100px;
+        right: 100px;
+        background-color: transparent;
+        font-size: 20px;
     }
     .footer{
         padding:20px 0;
